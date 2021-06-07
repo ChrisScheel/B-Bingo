@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:B_Bingo"
         mc:Ignorable="d"
-        Title="B-Bingo File Import" Height="450" Width="800">
-    <Grid>
+        Title="B-Bingo File Import" Height="200" Width="500">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0">Please choose a file which contains buzzwords. Please note: </Label>
+        <Label Grid.Row="1">- The file must be of type .txt</Label>
+        <Label Grid.Row="2">- The file must contain 16 entities, separated by ","</Label>
+        <Label Grid.Row="3" Margin="0,10" HorizontalContentAlignment="Center">
+            <Button Name="btnOpenFile" Click="btnOpenFile_Click">Choose file</Button>
+        </Label>
         
     </Grid>
 </Window>

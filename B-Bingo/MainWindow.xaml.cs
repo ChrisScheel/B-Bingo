@@ -24,5 +24,10 @@ namespace B_Bingo
         {
             InitializeComponent();
         }
+
+        private void btnOpenFile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
