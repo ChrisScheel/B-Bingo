@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace B_Bingo.Model
+namespace B_Bingo.BBingoModel
 {
     class BingoField
     {
+        //for viewmodel: is only binding code
+        //shows only the text in the bingofield
         private string fieldText1;
+        // for viewmodel: transformation code (logic)
+        // marks the bingofield as blue in the view when the user clicked it. isFieldMarked1 = true
         private bool isFieldMarked1;
 
         /*hint for me: to get full property:
