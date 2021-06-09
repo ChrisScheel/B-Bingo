@@ -18,7 +18,7 @@ namespace B_Bingo.BBingoModel
             //TODO: add exception handling
             //TODO: rething: method name mentions only importing a file but splits it too. is that ok?
             buzzWordsTogether = File.ReadAllText(@"C:\Users\Chris\Documents\Programmieren\B-Bingo\B-Words.txt");
-            buzzWordsSeparated = buzzWordsTogether.Split(", ");
+            buzzWordsSeparated = buzzWordsTogether.Split("; ");
             return buzzWordsSeparated;
         }
     }
