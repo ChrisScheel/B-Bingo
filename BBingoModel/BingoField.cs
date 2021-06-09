@@ -4,7 +4,7 @@ using System.Text;
 
 namespace B_Bingo.BBingoModel
 {
-    class BingoField
+    public class BingoField
     {
         //for viewmodel: is only binding code
         //shows only the text in the bingofield
@@ -17,8 +17,8 @@ namespace B_Bingo.BBingoModel
          * - right click on property
          * - click on quick actions and refactoring
          * - choose ...full property...*/
-        public string fieldText { get => fieldText1; set => fieldText1 = value; }
-        public bool isFieldMarked { get => isFieldMarked1; set => isFieldMarked1 = value; }
+        public string FieldText { get => fieldText1; set => fieldText1 = value; }
+        public bool IsFieldMarked { get => isFieldMarked1; set => isFieldMarked1 = value; }
 
 
     }
